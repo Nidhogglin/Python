@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d18dd5d-6913-4bf8-8226-bda04e89b5e7" name="Default Changelist" comment="" />
+    <list default="true" id="6d18dd5d-6913-4bf8-8226-bda04e89b5e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.idea/python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/001hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/003chinese_zodiac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/004yuanzu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/005list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/006ifelse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/007for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/008for+if.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/009while+if.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/010exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/011dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/018tuidaoshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/019files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/file_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/max2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonstudy/name.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +39,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g8v7JKPSiK4dWMSyZ8iLe4ImeV" />
   <component name="ProjectViewState">
