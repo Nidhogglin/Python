@@ -1,7 +1,7 @@
 #  求数组中连续多个元素求和最大的组合
 
 def MaxSubArray1(a):
-    max = 0
+    max = -float('inf')
     for i in range(1, len(a)+1):  # 连续求和的元素个数
         for j in range(0, len(a)-i+1):  # 元素求和开始的下标
             sum = 0  # sum存储每次元素相加的和，循环开始时重置为零
@@ -31,22 +31,23 @@ def MaxSubArray3(a):
     for i in a:
         max_cru = max(max_cru + i, i)
         max_pre = max(max_cru, max_pre)
-    return max_pre, max_cru
+    return max_pre
 
 
 def MaxSubArray4(a):
     for i in range(1, len(a)):
         a[i] += max(a[i-1], 0)
-    return a[-1]
+    return max(a[:-1])
+
 
 
 def main():
-    a = [1, -3, 4, -2, 5, -7, 6, -1]
+    a = [1, -1, 3]
 
     print(MaxSubArray2(a))
     print(MaxSubArray3(a))
     print(MaxSubArray4(a))
-
+    print(fmax2(a))
 
     index, max = MaxSubArray1(a)
     print("和为最大值的组合下标为：%d至%d，最大值为：%d" % (index[0], index[1], max))
