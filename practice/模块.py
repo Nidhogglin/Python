@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-'this is a test module'
+"""this is a test module"""
 
 __author__ = 'Nidhogg Lin'
 
