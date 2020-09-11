@@ -10,10 +10,12 @@ def loop():
     for i in range(5):
         print(threading.current_thread().name+'>>>', i)
         time.sleep(1)
+    print(threading.current_thread().name, 'end')
 
 
 if __name__ == '__main__':
-    print(threading.current_thread().name)
+    print(threading.current_thread().name, 'running')
     t = threading.Thread(target=loop, name='loopthred')
     t.start()
     t.join()
+    print(threading.current_thread().name, 'end')
