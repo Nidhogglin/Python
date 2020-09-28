@@ -15,26 +15,26 @@
 
 
 def solution(a):
-    max_p = -float('inf')
+    max_p = 0
     for i in range(len(a)-1):
         max_p = max(max(a[i+1: len(a)]) - a[i], max_p)
-    if max_p < 0:
-        return 0
     return max_p
 
 
 def solution2(a):
     buy_in = float('inf')
-    max_p = -float('inf')
+    max_p = 0
     for i in range(len(a)-1):
         buy_in = min(a[i], buy_in)
         max_p = max(a[i+1]-buy_in, max_p)
-    if max_p < 0:
-        return 0
     return max_p
 
 
 if __name__ == '__main__':
     a = [1, 2, 1, 4, 3, 4, 5, 6, 8, 0, 6, 4, 0]
+    b = [7, 3, 1]
     print(solution(a))
     print(solution2(a))
+    print(solution(b))
+    print(solution2(b))
+
