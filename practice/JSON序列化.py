@@ -7,7 +7,7 @@ import json
 
 # dumps()方法返回一个str，内容就是标准的JSON
 def demo1():
-    d =dict(name='Lin', gender='male', age='22')
+    d = dict(name='Lin', gender='male', age='22')
     print(d)
     print(json.dumps(d))
 
@@ -30,7 +30,15 @@ def demo3():
     print(json.loads(json_str))
 
 
+def demo4():
+    with open('JSON序列化.json', 'r') as j:
+        d = json.load(j)
+    print(d)
+    print(d['name'])
+
+
 if __name__ == '__main__':
-    demo1()
-    demo2()
-    demo3()
+    # demo1()
+    # demo2()
+    # demo3()
+    demo4()
