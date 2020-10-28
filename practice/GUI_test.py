@@ -248,7 +248,7 @@ def place():
 
 
 if __name__ == '__main__':
-    # demo()
+    demo()
     # radio_button()
     # check_button()
     # scale()
@@ -257,7 +257,7 @@ if __name__ == '__main__':
     # frame_demo()
     # message_box()
     # grid()
-    pack()
+    # pack()
     # place()
 
     # 主窗口循环显示

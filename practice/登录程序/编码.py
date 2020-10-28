@@ -4,5 +4,8 @@
 
 import base64
 
-with open('./image/icon.ico') as icon:
-    pass
+with open('./image/icon.ico', 'rb') as icon:
+    b64str = base64.b64encode(icon.read())
+
+with open('title.ico', 'wb+') as f:
+    f.write(base64.b64decode(b64str))

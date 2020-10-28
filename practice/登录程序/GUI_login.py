@@ -23,7 +23,7 @@ win.title('登录')
 # 设置窗口出生违章在屏幕居中
 win.geometry('%sx%s+%s+%s' % (win_width, win_height, x, y))
 # 设置窗口图标
-win.iconbitmap('./image/icon.ico')
+win.iconbitmap('./image/title1.ico')
 
 
 win.mainloop()
