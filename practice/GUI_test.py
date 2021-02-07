@@ -248,8 +248,8 @@ def place():
 
 
 if __name__ == '__main__':
-    demo()
-    # radio_button()
+    # demo()
+    radio_button()
     # check_button()
     # scale()
     # canvas()
